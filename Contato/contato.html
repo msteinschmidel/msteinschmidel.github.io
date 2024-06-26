@@ -13,16 +13,20 @@
 
     <p>Além dos contatos acima poderá ser feito contato através do formulário abaixo:</p>
     
-    <FORM>
-    <label for="">Nome Completo</label>
-        <input type="text" name="" id="">
-        <input type="submit" name="Enviar" id=""> <br /> <br />
-    <label for="Data">Retorno Esperado</label>
-        <input type="datetime-local"name="" id="">>  <br /> <br />
-    <label for="email">Digite seu e-mail</label>
-        <input type="email" id="email" pattern=".+@example\.com" size="30" required/> <br /> <br />
-    <label for="File">Adicione algum arquivo relevante</label>
-        <input type="file"name="" id="">>  <br /> <br />
+    <FORM action="mailto:matheusschmidel@hotmail.com" method="post" enctype="text/plain">
+        <label for="">Nome Completo</label>
+            <input type="text" name="Nome Completo" id=""> <br /> <br />
+        
+        <label for="Data">Retorno Esperado</label>
+            <input type="datetime-local"name="Data" id="">>  <br /> <br />
+             <label for="email">Digite seu e-mail</label>
+            <input type="email" name="email" size="30"/> <br /> <br />
+        <label for="File">Adicione algum arquivo relevante</label>
+            <input type="file"name="Arquivo" id="">>  <br /> <br />
+        <label for="">Digite sua Mensagem</label>
+            <textarea name="Mensagem" cols="30" rows="10"></textarea><br /> <br />
+
+            <input type="submit" name="Enviar" id=""> <br /> <br />
     </FORM>
 
 </body>
