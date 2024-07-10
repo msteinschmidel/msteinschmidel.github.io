@@ -1,9 +1,9 @@
 body {
-    background-color: #A7E6FF;
+    background-color:  rgb(10, 102, 194);
 
 }
 
-hr {background-color: white;
+hr {background-color: rgb(10, 102, 194);
     border-style: none;
     border-top-style: dotted;
     border-color: black;
@@ -14,5 +14,30 @@ hr {background-color: white;
 
 h1 { 
     color: black;
+
+}
+
+h2 {
+    color: lightcyan;
+}
+
+p {color: lightcyan;
+
+}
+
+th {
+    color: lightcyan;
+}
+
+li {
+    color: lightcyan;
+
+}
+
+td {color: lightcyan;
+
+}
+
+label { color: lightcyan;
 
 }
