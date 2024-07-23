@@ -49,10 +49,10 @@ label { color: lightcyan;
 /* ==================================================SEÇÃO DE CLASSES================================================== */
 
 a.contato1:link {color: yellow;}
-a.contato1:hover {color: red;}
+a.contato1:hover {color: orange;}
 
 .contato1 {color: yellow;}
-.contato1:hover {color: red;}
+.contato1:hover {color: orange}
 
 a.linkedin1:link {color: yellow;}
-a.linkedin1:hover {color: red;}
+a.linkedin1:hover {color: orange}
