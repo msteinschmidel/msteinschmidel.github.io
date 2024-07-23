@@ -57,5 +57,11 @@ a.contato1:hover {color: orange;}
 a.linkedin1:link {color: yellow;}
 a.linkedin1:hover {color: orange}
 
+.cabecalho1:hover{background: rgb(10, 102, 194);
+    color: white;}
+
+.paragrafo1:hover{background: rgb(10, 102, 194);
+    color: yellow;}
+
 /* ==================================================SEÇÃO DE IDs ================================================== */
 
