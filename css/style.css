@@ -1,23 +1,39 @@
+/* ==================================================SEÇÃO DE TAGS================================================== */
+header {
+    background-color: #0959aa;
+}
+
+main {
+    background-color: #0a66c2;
+}
+
+footer {
+    background-color: #0b73da;
+}
+
 body {
-    background-color:  rgb(10, 102, 194);
+    margin: 0;
+    background-color:  #0a66c2;
 
 }
 
-hr {background-color: rgb(10, 102, 194);
+hr {background-color: #0a66c2;
     border-style: none;
     border-top-style: dotted;
     border-color: black;
-    border-width: 5px;
+    border-width: 20px;
     width: 5%;
 
 }
 
-h1 { 
+h1 {
+    margin-top: 0;
     color: black;
 
 }
 
 h2 {
+    margin-top: 0;
     color: lightcyan;
 }
 
@@ -57,10 +73,10 @@ a.contato1:hover {color: orange;}
 a.linkedin1:link {color: yellow;}
 a.linkedin1:hover {color: orange}
 
-.cabecalho1:hover{background: rgb(10, 102, 194);
+.cabecalho1:hover{background: #0a66c2;
     color: white;}
 
-.paragrafo1:hover{background: rgb(10, 102, 194);
+.paragrafo1:hover{background: #0a66c2;
     color: yellow;}
 
 /* ==================================================SEÇÃO DE IDs ================================================== */
