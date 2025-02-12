@@ -44,8 +44,6 @@ p {color: lightcyan;
 
 th {
     color: lightcyan;
-    position: relative;
-    border: 1px, solid, white;
 }
 
 li {
@@ -53,8 +51,6 @@ li {
 }
 
 td {color: lightcyan;
-    position: relative;
-    border: 1px, solid, white;
 }
 
 label { color: lightcyan;
@@ -75,6 +71,11 @@ label { color: lightcyan;
 .tabulador2{
     position: relative;
     list-style: none;
+}
+
+.tabulador3{
+    position: relative;
+    border: 1px, solid, white; 
 }
 
 a.contato1:link {color: yellow;}
