@@ -5,6 +5,11 @@ header {
 
 main {
     background-color: #0a66c2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 footer {
@@ -61,30 +66,77 @@ label { color: lightcyan;
 
 .titulotabulador1{
     position: relative;
-    left: 255%;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centraliza a tabela dentro do container */
+    left: 120%;
 }
 
 .tabulador1{
     position: relative;
-    left: 230%;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centraliza a tabela dentro do container */
+    left: 95%;
 }
 
 .tabulador2{
     position: relative;
     list-style: none;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Centraliza a tabela dentro do container */
 }
 
 .tabulador3{
-    position: relative;
-    border: 1px, solid, white;
-    left: 35%; 
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd; 
 }
 
-a.contato1:link {color: yellow;}
-a.contato1:hover {color: orange;}
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100px; /* Altura mínima para o container */
+    padding: 20px; /* Espaçamento interno opcional */
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+  }
 
-.contato1 {color: yellow;}
-.contato1:hover {color: orange}
+  .btn {
+    background: #0a66c2;
+    background-image: -webkit-linear-gradient(top, #0a66c2, #0a66c2);
+    background-image: -moz-linear-gradient(top, #0a66c2, #0a66c2);
+    background-image: -ms-linear-gradient(top, #0a66c2, #0a66c2);
+    background-image: -o-linear-gradient(top, #0a66c2, #0a66c2);
+    background-image: linear-gradient(to bottom, #0a66c2, #0a66c2);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: lightcyan;
+    font-size: 25px;
+    padding: 2px 7px 3px 7px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #0ac2a8;
+    background-image: -webkit-linear-gradient(top, #0ac2a8, #0ac2a8);
+    background-image: -moz-linear-gradient(top, #0ac2a8, #0ac2a8);
+    background-image: -ms-linear-gradient(top, #0ac2a8, #0ac2a8);
+    background-image: -o-linear-gradient(top, #0ac2a8, #0ac2a8);
+    background-image: linear-gradient(to bottom, #0ac2a8, #0ac2a8);
+    text-decoration: none;
+  }
+
+/* Container para as tabelas */
+.table-container {
+    width: 100%;
+    max-width: 800px; /* Largura máxima das tabelas */
+    margin: 20px 0; /* Espaçamento entre as tabelas */
+    overflow-x: auto; /* Adiciona scroll horizontal se necessário */
+}
 
 a.linkedin1:link {color: yellow;}
 a.linkedin1:hover {color: orange}
